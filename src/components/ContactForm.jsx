@@ -7,8 +7,7 @@ import { withStyles } from "@material-ui/core/styles";
 import PropTypes from "prop-types";
 import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
-//import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-//import AppBar from 'material-ui/AppBar';
+
 
 const styles = {
     contactForm: {
@@ -25,7 +24,7 @@ export class ContactForm extends Component {
     }
     
     // Handle submit button
-    handleSubmit = async event => {
+    handleSubmit = event => {
         //event.preventDefault();
 
         const { userName, email, message } = this.state;
