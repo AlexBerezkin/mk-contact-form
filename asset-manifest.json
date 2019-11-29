@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/mk-contact-form/static/css/main.478a14b0.chunk.css",
-    "main.js": "/mk-contact-form/static/js/main.b3b1fba0.chunk.js",
-    "main.js.map": "/mk-contact-form/static/js/main.b3b1fba0.chunk.js.map",
+    "main.css": "/mk-contact-form/static/css/main.b6c47e18.chunk.css",
+    "main.js": "/mk-contact-form/static/js/main.a891ce99.chunk.js",
+    "main.js.map": "/mk-contact-form/static/js/main.a891ce99.chunk.js.map",
     "runtime-main.js": "/mk-contact-form/static/js/runtime-main.05afaa92.js",
     "runtime-main.js.map": "/mk-contact-form/static/js/runtime-main.05afaa92.js.map",
-    "static/js/2.9819d3c7.chunk.js": "/mk-contact-form/static/js/2.9819d3c7.chunk.js",
-    "static/js/2.9819d3c7.chunk.js.map": "/mk-contact-form/static/js/2.9819d3c7.chunk.js.map",
+    "static/js/2.bbb5147a.chunk.js": "/mk-contact-form/static/js/2.bbb5147a.chunk.js",
+    "static/js/2.bbb5147a.chunk.js.map": "/mk-contact-form/static/js/2.bbb5147a.chunk.js.map",
     "index.html": "/mk-contact-form/index.html",
-    "precache-manifest.4741d9a66661459d461a1cee7845ddde.js": "/mk-contact-form/precache-manifest.4741d9a66661459d461a1cee7845ddde.js",
+    "precache-manifest.c366e68e72e57207012a6eaae38b208d.js": "/mk-contact-form/precache-manifest.c366e68e72e57207012a6eaae38b208d.js",
     "service-worker.js": "/mk-contact-form/service-worker.js",
-    "static/css/main.478a14b0.chunk.css.map": "/mk-contact-form/static/css/main.478a14b0.chunk.css.map"
+    "static/css/main.b6c47e18.chunk.css.map": "/mk-contact-form/static/css/main.b6c47e18.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.05afaa92.js",
-    "static/js/2.9819d3c7.chunk.js",
-    "static/css/main.478a14b0.chunk.css",
-    "static/js/main.b3b1fba0.chunk.js"
+    "static/js/2.bbb5147a.chunk.js",
+    "static/css/main.b6c47e18.chunk.css",
+    "static/js/main.a891ce99.chunk.js"
   ]
 }
