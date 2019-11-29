@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 import Grid from "@material-ui/core/Grid";
 import TextField from "@material-ui/core/TextField";
@@ -13,7 +13,7 @@ const styles = {
     contactForm: {
         marginTop: 50,
         width: '60vh'
-    }
+        }
   };
 
 export class ContactForm extends Component {
@@ -117,7 +117,7 @@ export class ContactForm extends Component {
                                 rowsMax="4"
                                 />
                             </Grid>
-                            <Grid container direction="row" spacing={2} style={{ marginTop: 20, alignItems: 'right' }}>
+                            <Grid container direction="row" spacing={2} style={{ marginTop: 20 }}>
                             <Grid item >
                                 <Button
                                 className={classes.formButton}
