@@ -24,7 +24,7 @@ export class ContactForm extends Component {
     }
     
     // Handle submit button
-    handleSubmit = event => {
+    handleSubmit = async event => {
         //event.preventDefault();
 
         const { userName, email, message } = this.state;
@@ -32,26 +32,26 @@ export class ContactForm extends Component {
         try {
             const data = await postData('https://1u5leuz6gg.execute-api.us-west-2.amazonaws.com/prod/submit', { userName, email, message });
             console.log(JSON.stringify(data)); // JSON-string from `response.json()` call
-          } catch (error) {
+        } catch (error) {
             console.error(error);
-          }
-          
-          async function postData(url = '', data = {}) {
+        }
+
+        async function postData(url = '', data = {}) {
             // Default options are marked with *
-            const response = await fetch(url, {
-              method: 'POST', // *GET, POST, PUT, DELETE, etc.
-              mode: 'cors', // no-cors, *cors, same-origin
-              cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-              credentials: 'same-origin', // include, *same-origin, omit
-              headers: {
+                const response = await fetch(url, {
+                method: 'POST', // *GET, POST, PUT, DELETE, etc.
+                mode: 'cors', // no-cors, *cors, same-origin
+                cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+                credentials: 'same-origin', // include, *same-origin, omit
+                headers: {
                 'Content-Type': 'application/json'
                 // 'Content-Type': 'application/x-www-form-urlencoded',
-              },
-              redirect: 'follow', // manual, *follow, error
-              referrer: 'no-referrer', // no-referrer, *client
-              body: JSON.stringify(data) // body data type must match "Content-Type" header
+                },
+                redirect: 'follow', // manual, *follow, error
+                referrer: 'no-referrer', // no-referrer, *client
+                body: JSON.stringify(data) // body data type must match "Content-Type" header
             });
-            return await response.json(); // parses JSON response into native JavaScript objects
+        return await response.json(); // parses JSON response into native JavaScript objects
         }
     }
 
@@ -117,8 +117,8 @@ export class ContactForm extends Component {
                                 rowsMax="4"
                                 />
                             </Grid>
-                            <Grid container direction="row" alignItems="center" spacing={1} style={{ marginTop: 20 }}>
-                            <Grid item xs={2} md={2} lg={2}>
+                            <Grid container direction="row" spacing={2} style={{ marginTop: 20, alignItems: 'right' }}>
+                            <Grid item >
                                 <Button
                                 className={classes.formButton}
                                 type="reset"
@@ -129,7 +129,7 @@ export class ContactForm extends Component {
                                 RESET
                                 </Button>
                             </Grid>
-                            <Grid item xs={2} md={2} lg={2}>  
+                            <Grid item >  
                                 <Button
                                 className={classes.formButton}
                                 type="submit"
