@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.b6c47e18.chunk.css",
-    "main.js": "./static/js/main.1e31aa27.chunk.js",
-    "main.js.map": "./static/js/main.1e31aa27.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.d4c1a7be.js",
-    "runtime-main.js.map": "./static/js/runtime-main.d4c1a7be.js.map",
-    "static/js/2.bbb5147a.chunk.js": "./static/js/2.bbb5147a.chunk.js",
-    "static/js/2.bbb5147a.chunk.js.map": "./static/js/2.bbb5147a.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.aeb09cc44d5a07b1655b8b94eda98121.js": "./precache-manifest.aeb09cc44d5a07b1655b8b94eda98121.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.b6c47e18.chunk.css.map": "./static/css/main.b6c47e18.chunk.css.map"
+    "main.css": "/mk-contact-form/static/css/main.b6c47e18.chunk.css",
+    "main.js": "/mk-contact-form/static/js/main.b6b6eb49.chunk.js",
+    "main.js.map": "/mk-contact-form/static/js/main.b6b6eb49.chunk.js.map",
+    "runtime-main.js": "/mk-contact-form/static/js/runtime-main.05afaa92.js",
+    "runtime-main.js.map": "/mk-contact-form/static/js/runtime-main.05afaa92.js.map",
+    "static/js/2.bbb5147a.chunk.js": "/mk-contact-form/static/js/2.bbb5147a.chunk.js",
+    "static/js/2.bbb5147a.chunk.js.map": "/mk-contact-form/static/js/2.bbb5147a.chunk.js.map",
+    "index.html": "/mk-contact-form/index.html",
+    "precache-manifest.a21fbe9322fa8615f038940fbb43f550.js": "/mk-contact-form/precache-manifest.a21fbe9322fa8615f038940fbb43f550.js",
+    "service-worker.js": "/mk-contact-form/service-worker.js",
+    "static/css/main.b6c47e18.chunk.css.map": "/mk-contact-form/static/css/main.b6c47e18.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d4c1a7be.js",
+    "static/js/runtime-main.05afaa92.js",
     "static/js/2.bbb5147a.chunk.js",
     "static/css/main.b6c47e18.chunk.css",
-    "static/js/main.1e31aa27.chunk.js"
+    "static/js/main.b6b6eb49.chunk.js"
   ]
 }
