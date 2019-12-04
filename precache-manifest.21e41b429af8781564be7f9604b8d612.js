@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c5cf6b1863c3b8ca75ebbcf4146a014",
+    "revision": "68847a8f9b2985856e5da62f8a239802",
     "url": "/AlexBerezkin/mk-contact-form/index.html"
   },
   {
-    "revision": "190a30ab69be723b176c",
+    "revision": "0cbb0753fd040305123c",
     "url": "/AlexBerezkin/mk-contact-form/static/css/main.b6c47e18.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AlexBerezkin/mk-contact-form/static/js/2.bbb5147a.chunk.js"
   },
   {
-    "revision": "190a30ab69be723b176c",
-    "url": "/AlexBerezkin/mk-contact-form/static/js/main.17ff6368.chunk.js"
+    "revision": "0cbb0753fd040305123c",
+    "url": "/AlexBerezkin/mk-contact-form/static/js/main.22c721e4.chunk.js"
   },
   {
     "revision": "ac26eaa4ad87eceb14b6",

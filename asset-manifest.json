@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/AlexBerezkin/mk-contact-form/static/css/main.b6c47e18.chunk.css",
-    "main.js": "/AlexBerezkin/mk-contact-form/static/js/main.17ff6368.chunk.js",
-    "main.js.map": "/AlexBerezkin/mk-contact-form/static/js/main.17ff6368.chunk.js.map",
+    "main.js": "/AlexBerezkin/mk-contact-form/static/js/main.22c721e4.chunk.js",
+    "main.js.map": "/AlexBerezkin/mk-contact-form/static/js/main.22c721e4.chunk.js.map",
     "runtime-main.js": "/AlexBerezkin/mk-contact-form/static/js/runtime-main.6cc186fb.js",
     "runtime-main.js.map": "/AlexBerezkin/mk-contact-form/static/js/runtime-main.6cc186fb.js.map",
     "static/js/2.bbb5147a.chunk.js": "/AlexBerezkin/mk-contact-form/static/js/2.bbb5147a.chunk.js",
     "static/js/2.bbb5147a.chunk.js.map": "/AlexBerezkin/mk-contact-form/static/js/2.bbb5147a.chunk.js.map",
     "index.html": "/AlexBerezkin/mk-contact-form/index.html",
-    "precache-manifest.d6ad57edaa5beb518d1d4563b8cff64c.js": "/AlexBerezkin/mk-contact-form/precache-manifest.d6ad57edaa5beb518d1d4563b8cff64c.js",
+    "precache-manifest.21e41b429af8781564be7f9604b8d612.js": "/AlexBerezkin/mk-contact-form/precache-manifest.21e41b429af8781564be7f9604b8d612.js",
     "service-worker.js": "/AlexBerezkin/mk-contact-form/service-worker.js",
     "static/css/main.b6c47e18.chunk.css.map": "/AlexBerezkin/mk-contact-form/static/css/main.b6c47e18.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.6cc186fb.js",
     "static/js/2.bbb5147a.chunk.js",
     "static/css/main.b6c47e18.chunk.css",
-    "static/js/main.17ff6368.chunk.js"
+    "static/js/main.22c721e4.chunk.js"
   ]
 }
