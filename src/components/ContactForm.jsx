@@ -25,9 +25,10 @@ export class ContactForm extends Component {
     
     // Handle submit button
     handleSubmit = async event => {
-        //event.preventDefault();
+        event.preventDefault();
 
         const { userName, email, message } = this.state;
+        
         
         try {
             const data = await postData('https://1u5leuz6gg.execute-api.us-west-2.amazonaws.com/prod/submit', { userName, email, message });
@@ -53,6 +54,11 @@ export class ContactForm extends Component {
             });
         return await response.json(); // parses JSON response into native JavaScript objects
         }
+
+        // Reset from after submiting
+        document.getElementById('contact-form').reset();
+        this.setState({ userName: "", email: "", message: "" });
+        
     }
 
     // Handle fields change
