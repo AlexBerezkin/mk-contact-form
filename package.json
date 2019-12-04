@@ -2,7 +2,7 @@
   "name": "mk-contact-form",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexberezkin.github.io/mk-contact-form/",
+  "homepage": "https://alexberezkin.github.io/mk-contact-form",
   "dependencies": {
     "@material-ui/core": "^4.7.0",
     "gh-pages": "^2.1.1",
